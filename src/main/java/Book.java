@@ -1,5 +1,14 @@
+/**
+ @author Oscar Aviles-Saldana
+ @since: 2026.03.26
+ Abstract: This class represents a Book and stores key information such as the author, title, ISBN, and other details.
+ The data is saved in a structured, index‑based format, allowing the program to access each piece of information by its
+ position in the list rather than through individual class fields.
+ */
+
 import java.time.LocalDate;
 import java.util.Objects;
+
 
 public class Book {
     public final static int ISBN_ = 0;
